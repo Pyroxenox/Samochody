@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Baza_Samochodow.Views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="labelUsername" Text="Zaloguj się" />
+            <Entry x:Name="entryUsername" Placeholder="Użytkownik" BackgroundColor="Gray"/>
+            <Label x:Name="labelPassword" Text="Hasło" />
+            <Entry x:Name="entryPassword" Placeholder="Hasło" BackgroundColor="Gray"/>
+            <Button x:Name="buttonLogin" Text="Zaloguj" Clicked="SignIn" BackgroundColor="Gray" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

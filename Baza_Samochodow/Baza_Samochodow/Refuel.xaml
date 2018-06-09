@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Baza_Samochodow.Refuel">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="Litres" HorizontalOptions="FillAndExpand" Text="Ilość litrów "/>
+            <Entry x:Name="Cost" HorizontalOptions="FillAndExpand" Text="Koszt w zł. "/>
+            <Entry x:Name="GasStation" HorizontalOptions="FillAndExpand" Text="Stacja benzynowa"/>
+            <Button x:Name="Add" Text="Dodaj" Clicked="btnAdd"/>
+            <Button x:Name="Return" Text="Powrót" Clicked="btnReturn"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

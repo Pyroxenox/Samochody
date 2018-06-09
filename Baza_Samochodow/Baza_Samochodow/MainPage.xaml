@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Baza_Samochodow"
+             x:Class="Baza_Samochodow.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Picker x:Name="typePicker" HorizontalOptions="FillAndExpand" Title="Wybierz wydatek" SelectedIndexChanged="OnExpenseChosen">
+            <Picker.Items>
+                <x:String>Tankowanie</x:String>
+                <x:String>Naprawy</x:String>
+                <x:String>Przeglądy</x:String>
+                <x:String>Ubezpieczenia</x:String>
+            </Picker.Items>
+        </Picker>
+        <Label Text="Wybierz interesujący Cię wydatek" 
+           HorizontalOptions="Center" />
+    </StackLayout>
+
+</ContentPage>
